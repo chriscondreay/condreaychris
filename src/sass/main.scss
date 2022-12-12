@@ -58,7 +58,7 @@ img.home-element {
 }
 
 h1.intro-name {
-  font-size: 70px;
+  font-size: 55px;
   font-weight: 700;
 }
 
@@ -87,7 +87,7 @@ section.home {
 h2.title {
   font-size: 2.5rem;
   font-weight: 600;
-  margin: 0 0 0 5px;
+  margin: 0 0 0 15px;
   padding: 0 0 15px;
 }
 
@@ -121,11 +121,17 @@ h2.title {
   [class*="col-"] {
     margin-top: 15px;
     margin-bottom: 15px;
-  }
+    max-width: 475px;
+  } 
+}
+
+.project-items {
+  margin: auto;
+  max-width: 375px;
 }
 
 .project-info {
-  width: 260px;
+  width: 100%;
   height: 260px;
   padding: 1.5rem;
   background: #fff;
@@ -245,6 +251,14 @@ h2.title {
 .project-info .project-text button:hover {
   background: #ffd857;
   color: #000;
+}
+
+.link::before {
+  color: #fff;
+
+  & :hover {
+    color: yellow;
+  }
 }
 
 // ===============================

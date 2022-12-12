@@ -44,22 +44,12 @@ function Projects() {
           </div>
           <div className="row project-items">
             <div className="col-md-4 col-sm-6 project-card">
-                {/* {projectData.map((project) => {
-                  <div className="project-item" key={project.id}>
-                    <Works
-                      image={project.image}
-                      title={project.title}
-                      description={project.description}
-                      languages={project.languages}
-                    />
-                  </div>
-                })} */}
               <div className="project-info">
                 <img src="images/project-cards/img-1.png" alt="" />
                 <div className="project-text">
-                  <h3>Pints & Pixels</h3>
-                  <h4>Find your favorite bars</h4>
-                  <p>HTML | CSS | JS</p>
+                  <h3>Workout Tracker</h3>
+                  <h4>Exercise tracker utilizing NoSQL</h4>
+                  <p>NoSQL | CSS | JS</p>
                   <a href="/">Link</a>
                 </div>
               </div>
@@ -71,7 +61,23 @@ function Projects() {
                   <h4 className="h4">Book Search Engine</h4>
                   <h5>Find your favorite books</h5>
                   <p>React | GraphQL</p>
-                  <a href="/">Link</a>
+                  <a 
+                    className="link" 
+                    href="https://github.com/chriscondreay/Book-Search-Engine" 
+                    target='_blank'
+                    rel="noreferrer"
+                    >
+                      Repository
+                  </a>
+                  <span> | </span>
+                  <a 
+                    className="link" 
+                    href="https://cool-book-search.herokuapp.com/" 
+                    target='_blank'
+                    rel="noreferrer"
+                    >
+                      Website
+                  </a>
                 </div>
               </div>
             </div>
