@@ -9,8 +9,10 @@ function Contact() {
           <div className="row">
             <div className="col-md-4">
               <h2>Get In Touch</h2>
-              <p>
-                If you'd like to get in touch
+              <p className="email-btn">
+                If you'd like to get in touch, send me an email{" "} 
+                  <a href="mailto:condreaychris@gmail.com">here</a> 
+                {" "}or use the form and I'll be sure to get back to you soon
               </p>
             </div>
             <div className="col-md-8">
@@ -21,7 +23,7 @@ function Contact() {
                     placeholder="Name" />
                   </div>
                   <div className="column col-md-6">
-                    <input type="number" className="form-control" id="number"
+                    <input type="phone" className="form-control" id="number"
                     placeholder="Phone" />
                   </div>
                   <div className="column col-12">

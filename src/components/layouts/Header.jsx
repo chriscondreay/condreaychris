@@ -6,7 +6,17 @@ function Header() {
     <header className="fixed-header header">
       <div className="container-lg">
         <nav className="navbar navbar-expand-lg">
-          <a className="navbar-brand active" aria-current="page" href="#/">CC</a>
+          <li className="navbar-brand navbar-nav active" aria-current="page" href="/">
+            <Link
+              style={{ textDecoration: 'none', color: '#000' }}
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
+              CC
+            </Link>
+          </li>
           <button 
             className="navbar-toggler" 
             type="button" 

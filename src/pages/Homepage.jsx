@@ -1,10 +1,11 @@
 import React from "react";
-import About from "../components/About";
-import Header from "../components/Header";
-import Home from "../components/Home";
-import Projects from "../components/Projects";
-import Skills from "../components/Skills";
-import Contact from "../components/Contact";
+import About from "../components/sections/About";
+import Header from "../components/layouts/Header";
+import Home from "../components/sections/Home";
+import Projects from "../components/sections/Projects";
+import Skills from "../components/sections/Skills";
+import Contact from "../components/sections/Contact";
+import Footer from "../components/layouts/Footer";
 import { Element } from "react-scroll";
 
 function Homepage() {
@@ -27,7 +28,9 @@ function Homepage() {
         <Element name="contact">
           <Contact />
         </Element>
+        <div className="spacer" data-height="100"></div>
       </main>
+    <Footer />
     </>
   )
 };

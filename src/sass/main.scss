@@ -2,13 +2,15 @@
   padding-top: 180px;
 }
 
+// .spacer[data-height="96"]
+
 // ===============================
 //         HEADER SECTION
 // ===============================
 
 .header {
   padding: 10px 0;
-  background: #4f7383;
+  background: $aqua-green;
   position: fixed;
   left: 0;
   right: 0;
@@ -31,14 +33,14 @@
 }
 
 .nav-link {
-  color: $default-color;
+  color: $default-color !important;
 
   &.active {
-    color: $yellow-orange;
+    color: $yellow-orange !important;
   }
 
   &:hover {
-    color: $yellow-orange;
+    color: $yellow-orange !important;
   }
 }
 
@@ -87,7 +89,7 @@ section.home {
 h2.title {
   font-size: 2.5rem;
   font-weight: 600;
-  margin: 0 0 0 15px;
+  margin: 0 0 0 5px;
   padding: 0 0 15px;
 }
 
@@ -343,3 +345,34 @@ form {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+
+.email-btn a {
+  text-decoration: none;
+  color: $aqua-green;
+
+  &:hover {
+    color: $orange;
+  }
+}
+
+.spacer {
+  clear: both;
+
+  &[data-height="100"] {
+    height: 100px;
+  }
+}
+
+// ===============================
+//         FOOTER SECTION
+// ===============================
+
+.footer {
+  z-index: 0;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  padding: 25px 0;
+  background: $dark-aqua;
+}
+
