@@ -116,6 +116,27 @@ h2.title {
   width: 150px;
 }
 
+.resume-btn {
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: $white;
+  background: $aqua-green;
+  padding: 15px;
+
+  &.border-round {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+  }
+
+  &:hover {
+    background: #739bac;
+    color: $white;
+  }
+}
+
 // ===============================
 //         PROJECT SECTION
 // ===============================
