@@ -24,3 +24,31 @@
   }
 }
 
+@media (min-width: 760px) {
+  .project-link {
+    position: relative;
+    bottom: 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  h3.card-title {
+    font-size: 24px;
+  }
+
+  h5.card-title {
+    font-size: 15px;
+    top: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  h3.card-title {
+    font-size: 25px;
+  }
+
+  h5.card-title {
+    top: 25px;
+  }
+}
+

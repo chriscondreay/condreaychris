@@ -47,10 +47,26 @@ function Projects() {
               <div className="project-info">
                 <img src="images/project-cards/img-1.png" alt="" />
                 <div className="project-text">
-                  <h3>Workout Tracker</h3>
-                  <h4>Exercise tracker utilizing NoSQL</h4>
-                  <p>NoSQL | CSS | JS</p>
-                  <a href="/">Link</a>
+                  <h3 className="card-title">Workout Tracker</h3>
+                  <h5 className="card-title">Exercise tracker utilizing NoSQL</h5>
+                  <p className="categories">NoSQL | MongoDB</p>
+                  <div className="project-link">
+                    <a
+                      href="https://github.com/chriscondreay/Workout-tracker"
+                      target='_blank'
+                      rel="noreferrer"
+                      >
+                        Repository
+                    </a>
+                    <span> | </span>
+                    <a
+                      href="https://track-workout1.herokuapp.com/"
+                      target='_blank'
+                      rel="noreferrer"
+                      >
+                        Website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -58,26 +74,26 @@ function Projects() {
               <div className="project-info">
               <img src="images/project-cards/img-2.png" alt="" />
                 <div className="project-text">
-                  <h4 className="h4">Book Search Engine</h4>
-                  <h5>Find your favorite books</h5>
-                  <p>React | GraphQL</p>
-                  <a 
-                    className="link" 
-                    href="https://github.com/chriscondreay/Book-Search-Engine" 
-                    target='_blank'
-                    rel="noreferrer"
-                    >
-                      Repository
-                  </a>
-                  <span> | </span>
-                  <a 
-                    className="link" 
-                    href="https://cool-book-search.herokuapp.com/" 
-                    target='_blank'
-                    rel="noreferrer"
-                    >
-                      Website
-                  </a>
+                  <h3 className="card-title">Book Search Engine</h3>
+                  <h5 className="card-title">Find your favorite books</h5>
+                  <p className="categories">React | GraphQL</p>
+                  <div className="project-link">
+                    <a
+                      href="https://github.com/chriscondreay/Book-Search-Engine"
+                      target='_blank'
+                      rel="noreferrer"
+                      >
+                        Repository
+                    </a>
+                    <span> | </span>
+                    <a
+                      href="https://cool-book-search.herokuapp.com/"
+                      target='_blank'
+                      rel="noreferrer"
+                      >
+                        Website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -85,10 +101,26 @@ function Projects() {
               <div className="project-info">
               <img src="images/project-cards/img-3.png" alt="" />
                 <div className="project-text">
-                  <h4 className="h4">Workout Tracker</h4>
-                  <h5>Track your fitness</h5>
-                  <p>NoSQL | Express.js</p>
-                  <a href="/">Link</a>
+                  <h3 className="card-title">Budget Tracker PWA</h3>
+                  <h5 className="card-title">Manage your spending online/offline</h5>
+                  <p className="categories"> NoSQL | PWA | JS</p>
+                  <div className="project-link">
+                    <a
+                      href="https://github.com/chriscondreay/Budget-Tracker"
+                      target='_blank'
+                      rel="noreferrer"
+                      >
+                        Repository
+                    </a>
+                    <span> | </span>
+                    <a
+                      href="https://budget-tracker-app01.herokuapp.com/"
+                      target='_blank'
+                      rel="noreferrer"
+                      >
+                        Website
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

@@ -31,14 +31,14 @@
 }
 
 .nav-link {
-  color: black;
+  color: $default-color;
 
   &.active {
-    color: yellow !important;
+    color: $yellow-orange;
   }
 
   &:hover {
-    color: yellow !important;
+    color: $yellow-orange;
   }
 }
 
@@ -133,8 +133,8 @@ h2.title {
 .project-info {
   width: 100%;
   height: 260px;
-  padding: 1.5rem;
-  background: #fff;
+  padding: .75rem;
+  background: #4f7383ce;
   position: relative;
   border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -154,10 +154,12 @@ h2.title {
   -moz-transform: translateY(20px);
   -ms-transform: translateY(20px);
   -o-transform: translateY(20px);
+
 }
 .project-info:hover::before {
-  opacity: .75;
+  opacity: .85;
 }
+
 .project-info:hover .project-text {
   opacity: 1;
   transform: translateY(0px);
@@ -174,7 +176,7 @@ h2.title {
   display: block;
   width: 100%;
   height: 100%;
-  background: rgb(119, 159, 199);
+  background: #789fc7;
   z-index: 2;
   opacity: 0;
   transition: 0.5s;
@@ -206,13 +208,13 @@ h2.title {
   position: relative;
   top: 35px;
   z-index: 1000;
-  color: #fff;
+  color: $white;
   opacity: 0;
-  transform: translateY();
-  -webkit-transform: translateY();
-  -moz-transform: translateY();
-  -ms-transform: translateY();
-  -o-transform: translateY();
+  transform: translateY(5px);
+  -webkit-transform: translateY(5px);
+  -moz-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  -o-transform: translateY(5px);
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -221,44 +223,51 @@ h2.title {
 }
 .project-info .project-text h4 {
   font-size: 25px;
-  margin: 0;
 }
 .project-info .project-text p {
   letter-spacing: 1px;
   font-size: 15px;
-  margin-top: 8px;
-}
-.project-info .project-text button {
-  padding: 0.6rem;
-  margin: 0.5rem 0.5rem 0.5rem 0;
-  outline: none;
-  border: none;
-  background: #fff;
-  color: #000;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.4s ease;
-  -webkit-transition: 0.4s ease;
-  -moz-transition: 0.4s ease;
-  -ms-transition: 0.4s ease;
-  -o-transition: 0.4s ease;
-  border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-}
-.project-info .project-text button:hover {
-  background: #ffd857;
-  color: #000;
 }
 
-.link::before {
-  color: #fff;
-
+.project-link {
+  a {
+    transition: 0.2s;
+    color: #c3ece7;
+    text-decoration: none;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+  
   & :hover {
-    color: yellow;
+    color: $yellow-orange;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
   }
+}
+
+h3.card-title {
+  position: absolute;
+  top: -15px;
+  font-size: 40px;
+}
+
+h5.card-title {
+  margin-left: 5px;
+  position: inherit;
+  top: 85px;
+  font-size: 15px;
+}
+
+p.categories,
+div.project-link {
+  margin: 0;
+  position: relative;
+  bottom: -120px;
 }
 
 // ===============================
@@ -290,7 +299,7 @@ h2.title {
 form .btn-custom {
   font-weight: 600;
   background: #4f7383;
-  color: #fff;
+  color: $white;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 30px;
@@ -302,7 +311,7 @@ form .btn-custom {
 
 form .btn-custom:hover {
   background: #739bac;
-  color: #fff;
+  color: $white;
 }
 
 .contact-form {
@@ -310,8 +319,9 @@ form .btn-custom:hover {
 }
 
 form {
-  border: 1px solid #dadada69;
-  box-shadow: 2px 2px 6px rgb(129 170 173 / 46%);
+  background: $white;
+  border: 1px solid #71717169;
+  box-shadow: 2px 2px 6px #27272775;
   padding: 20px;
   border-radius: 25px;
   -webkit-border-radius: 25px;
