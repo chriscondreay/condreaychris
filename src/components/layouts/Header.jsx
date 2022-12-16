@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll"
 
 function Header() {
+  const [toggleNav, setToggleNav] = useState(false);
+
+  const handleNav = e => {
+    e.preventDefault();
+    setToggleNav(!toggleNav);
+  };
+
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('.content-3')) {
+      setToggleNav(false)
+    }
+  });
   return (
     <header className="fixed-header header">
       <div className="container-lg">
@@ -25,10 +37,11 @@ function Header() {
             aria-controls="navbarNav" 
             aria-expanded="false" 
             aria-label="Toggle navigation"
+            onClick={handleNav}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div className={toggleNav ? "collapse navbar-collapse justify-content-end show" : "collapse navbar-collapse" }id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link
