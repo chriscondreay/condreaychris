@@ -39,28 +39,28 @@ class Skills extends Component {
             <div className="mainContainer">
               <Slider {...settings}>
                 <div className="slide-container">
-                  <img src="/images/html-css.png" alt="" />
+                  <img src="/images/html-css.webp" alt="" />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/javascript.png" alt="" />
+                  <img src="/images/javascript.webp" alt="" />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/sass.png" alt="" />
+                  <img src="/images/sass.webp" alt="" />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/node.png" alt="" />
+                  <img src="/images/node.webp" alt="" />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/mysql.png" alt="" />
+                  <img src="/images/mysql.webp" alt="" />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/mongodb.png" alt="" />
+                  <img src="/images/mongodb.webp" alt="" />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/react.png" alt="" />
+                  <img src="/images/react.webp" alt="" />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/graphql.png" alt="" />
+                  <img src="/images/graphql.webp" alt="" />
                 </div>
               </Slider>
             </div>
