@@ -39,28 +39,28 @@ class Skills extends Component {
             <div className="mainContainer">
               <Slider {...settings}>
                 <div className="slide-container">
-                  <img src="/images/html-css.webp" alt="" />
+                  <img src="/images/html-css.webp" alt="" style={{ width: "50%", height: "100%"}} />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/javascript.webp" alt="" />
+                  <img src="/images/javascript.webp" alt="" style={{ width: "50%", height: "100%"}} />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/sass.webp" alt="" />
+                  <img src="/images/sass.webp" alt="" style={{ width: "50%", height: "100%"}} />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/node.webp" alt="" />
+                  <img src="/images/node.webp" alt="" style={{ width: "50%", height: "100%"}} />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/mysql.webp" alt="" />
+                  <img src="/images/mysql.webp" alt="" style={{ width: "50%", height: "100%"}} />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/mongodb.webp" alt="" />
+                  <img src="/images/mongodb.webp" alt="" style={{ width: "50%", height: "100%"}} />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/react.webp" alt="" />
+                  <img src="/images/react.webp" alt="" style={{ width: "50%", height: "100%"}} />
                 </div>
                 <div className="slide-container">
-                  <img src="/images/graphql.webp" alt="" />
+                  <img src="/images/graphql.webp" alt="" style={{ width: "50%", height: "100%"}} />
                 </div>
               </Slider>
             </div>
