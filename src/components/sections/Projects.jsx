@@ -45,7 +45,7 @@ function Projects() {
           <div className="row project-items">
             <div className="col-md-4 col-sm-6 project-card">
               <div className="project-info">
-                <img src="images/project-cards/img-1.png" alt="" />
+                <img src="images/project-cards/img-1.webp" alt="" />
                 <div className="project-text">
                   <h3 className="card-title">Workout Tracker</h3>
                   <h5 className="card-title">Exercise tracker utilizing NoSQL</h5>
@@ -72,7 +72,7 @@ function Projects() {
             </div>
             <div className="col-md-4 col-sm-6 project-card">
               <div className="project-info">
-              <img src="images/project-cards/img-2.png" alt="" />
+              <img src="images/project-cards/img-2.webp" alt="" />
                 <div className="project-text">
                   <h3 className="card-title">Book Search Engine</h3>
                   <h5 className="card-title">Find your favorite books</h5>
@@ -99,7 +99,7 @@ function Projects() {
             </div>
             <div className="col-md-4 col-sm-6 project-card">
               <div className="project-info">
-              <img src="images/project-cards/img-3.png" alt="" />
+              <img src="images/project-cards/img-3.webp" alt="" />
                 <div className="project-text">
                   <h3 className="card-title">Budget Tracker PWA</h3>
                   <h5 className="card-title">Manage your spending online/offline</h5>

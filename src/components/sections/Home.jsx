@@ -23,7 +23,7 @@ function Home() {
 
   return (
     <section className="home">
-      <img className='home-element'src="/images/tech-lines.png" alt="woman-sitting-at-desk" />
+      <img className='home-element'src="/images/tech-lines.webp" alt="tech lines forming and making a line down" />
       <div className="align-center">
         <div className="container-fluid">
           <div className="home-center">

@@ -9,8 +9,9 @@ function About() {
           <div className="row">
             <div className="col-md-3">
               <div className="text-center">
-                <img className="profile-photo" src="/images/profile.jpg" alt="" /></div>
+                <img className="profile-photo" src="/images/profile.webp" alt="profile-photo-round" style={{ width: "min(70%, 14rem)" }} />
               </div>
+            </div>
             <div className="col-md-9 text-md-left">
               <p className="introduction">My name is Chris and I am a Fullstack Web Developer. I attended an online course at UCI and achieved a certificate for coding. I create clean, polished websites and continuing my knowledge and pursuit towards more coding.</p>
               <div>
