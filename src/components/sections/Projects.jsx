@@ -1,38 +1,6 @@
 import React from "react";
-// import Works from "./content/Works"
-
-// const projectData = [
-//   {
-//     id: 1,
-//     title: "Pints & Pixels",
-//     description: "Frontend Bar Finder",
-//     languages: ["API's", "JS"],
-//     image: "images/project-cards/img-1.png",
-//     repo: "https://github.com/Mapono/Project_1",
-//     website: "https://mapono.github.io/Project_1/"
-//   },
-//   {
-//     id: 2,
-//     title: "Pints & Pixels",
-//     description: "Frontend Bar Finder",
-//     languages: ["API's", "JS"],
-//     image: "images/project-cards/img-2.png",
-//     repo: "https://github.com/Mapono/Project_1",
-//     website: "https://mapono.github.io/Project_1/"
-//   },
-//   {
-//     id: 3,
-//     title: "Pints & Pixels",
-//     description: "Frontend Bar Finder",
-//     languages: ["API's", "JS"],
-//     image: "images/project-cards/img-3.png",
-//     repo: "https://github.com/Mapono/Project_1",
-//     website: "https://mapono.github.io/Project_1/"
-//   }
-// ]
 
 function Projects() {
-  // const [getData] = useState(projectData);
 
 
   return (
@@ -119,6 +87,25 @@ function Projects() {
                       rel="noreferrer"
                       >
                         Website
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-6 project-card">
+              <div className="project-info">
+              <img src="images/project-cards/img-3.webp" alt="" />
+                <div className="project-text">
+                  <h3 className="card-title">Catworx BadgeMaker</h3>
+                  <h5 className="card-title">Create a badge using C#</h5>
+                  <p className="categories"> C# | SkiaSharp</p>
+                  <div className="project-link">
+                    <a
+                      href="https://github.com/chriscondreay/CatWorx.Badgemaker"
+                      target='_blank'
+                      rel="noreferrer"
+                      >
+                        Repository
                     </a>
                   </div>
                 </div>
