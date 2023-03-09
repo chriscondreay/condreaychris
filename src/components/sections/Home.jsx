@@ -1,8 +1,8 @@
 import React from "react";
 import Wave from "react-wavify";
-import Typed from "react-typed";
+import { TypeAnimation } from "react-type-animation";
 
-function Home() {
+const Home = () => {
   const wave1 = {
     position: "absolute",
     bottom: "75px",
@@ -28,19 +28,22 @@ function Home() {
         <div className="container-fluid">
           <div className="home-center">
             <h1 className="intro-name">Chris Condreay</h1>
-            <p className="typed">I am{" "}
-            <Typed
-              strings={[
+            <p className="typed">I am {" "}
+            <TypeAnimation
+              sequence={[
                 "a Fullstack Developer",
+                1500,
                 "a Software Developer",
+                1500,
                 "a Software Engineer",
-                "Iron Man 🤖"
+                1500,
+                "Iron Man 🤖",
+                3000,
               ]}
-              typeSpeed={100}
-              backSpeed={50}
-              loop
-            >
-            </Typed>
+              speed={10}
+              wrapper="span"
+              repeat={Infinity}
+            />
             </p>
           </div>
         </div>
