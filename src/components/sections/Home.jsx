@@ -32,15 +32,15 @@ const Home = () => {
             <TypeAnimation
               sequence={[
                 "a Fullstack Developer",
-                1500,
+                2000,
                 "a Software Developer",
-                1500,
+                2000,
                 "a Software Engineer",
-                1500,
+                2000,
                 "Iron Man 🤖",
                 3000,
               ]}
-              speed={10}
+              speed={60}
               wrapper="span"
               repeat={Infinity}
             />
