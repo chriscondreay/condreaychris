@@ -1,6 +1,22 @@
-import React from "react";
+import React, {useRef} from "react";
+import emailjs from "@emailjs/browser";
 
-function Contact() {
+const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_wg2o8tt', 'template_phiad6c', form.current, 'zCBLLBK3jR377RoRm')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
+
   return (
     <div className="section">
       <div className="contact">
@@ -16,21 +32,24 @@ function Contact() {
               </p>
             </div>
             <div className="col-md-8">
-              <form id="contact-form" className="contact-form mt-6 needs-validation">
+              <form ref={form} onSubmit={sendEmail}  id="contact-form" className="contact-form mt-6 needs-validation">
                 <div className="row">
                   <div className="column col-md-6">
-                    <input type="text" className="form-control" id="name"
+                    <input type="text" className="form-control" name="user_name" id="user_name"
                     placeholder="Name" />
                   </div>
                   <div className="column col-md-6">
-                    <input type="phone" className="form-control" id="number"
+                    <input type="phone" className="form-control" name="phone" id="number"
                     placeholder="Phone" />
                   </div>
                   <div className="column col-12">
-                    <input type="email" className="form-control" id="email" placeholder="Email" />
+                    <input type="subject" className="form-control" name="subject" d="subject" placeholder="Subject" />
+                  </div>
+                  <div className="column col-12">
+                    <input type="email" className="form-control" name="user_email" id="email" placeholder="Email" />
                   </div>
                   <div className="column col-md-12">
-                    <textarea type="message" className="form-control" id="message" placeholder="Message"></textarea>
+                    <textarea type="message" className="form-control" name="message" id="message" placeholder="Message"></textarea>
                   </div>
                 </div>
                 <input type="submit" className="btn btn-custom" value="Send Message" />
