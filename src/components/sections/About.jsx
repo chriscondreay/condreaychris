@@ -9,7 +9,7 @@ function About() {
           <div className="row">
             <div className="col-md-3">
               <div className="text-center">
-                <img className="profile-photo" src="/images/profile.webp" alt="profile-round" style={{ width: "min(70%, 14rem)" }} />
+                <img className="profile-photo" src="images/profile.webp" alt="profile-round" style={{ width: "min(70%, 14rem)" }} />
               </div>
             </div>
             <div className="col-md-9 text-md-left">
