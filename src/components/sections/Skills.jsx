@@ -42,15 +42,15 @@ const Skills = () => {
                 speed={15}
                 style={{zIndex: "0"}}
               >
-                  <img src="/images/html_css-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
-                  <img src="/images/js-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
-                  <img src="/images/sass-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
-                  <img src="/images/node-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
-                  <img src="/images/mysql-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
-                  <img src="/images/mongodb-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
-                  <img src="/images/react-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
-                  <img src="/images/gql-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
-                  <img src="/images/next-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
+                  <img src="images/html_css-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
+                  <img src="images/js-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
+                  <img src="images/sass-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
+                  <img src="images/node-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
+                  <img src="images/mysql-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
+                  <img src="images/mongodb-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
+                  <img src="images/react-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
+                  <img src="images/gql-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
+                  <img src="images/next-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
               </Marquee>
             </div>
           </div>
