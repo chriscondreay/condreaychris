@@ -28,7 +28,7 @@ function Projects() {
                     </a>
                     <span> | </span>
                     <a
-                      href="https://track-workout1.herokuapp.com/"
+                      href="https://workout-tracker-d4f93.web.app/"
                       target='_blank'
                       rel="noreferrer"
                       >
@@ -55,7 +55,7 @@ function Projects() {
                     </a>
                     <span> | </span>
                     <a
-                      href="https://cool-book-search.herokuapp.com/"
+                      href="https://chriscondreay.github.io/Book-Search-Engine"
                       target='_blank'
                       rel="noreferrer"
                       >
