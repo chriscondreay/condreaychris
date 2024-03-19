@@ -13,9 +13,9 @@ function About() {
               </div>
             </div>
             <div className="col-md-9 text-md-left">
-              <p className="introduction">My name is Chris and I am a Fullstack Web Developer. I attended an online course at UCI and achieved a certificate for coding. I create clean, polished websites and continuing my knowledge and pursuit towards more coding.</p>
+              <p className="introduction">My name is Chris and I am a Fullstack Web Developer and full-time student at CLU. I attended an online course at UCI and achieved a certificate for coding. I create clean, polished websites and continuing my knowledge and pursuit towards more coding.</p>
               <div>
-                <a href="images/Christopher-Condreay.pdf" target={'_blank'}>
+                <a href="./images/ChristopherCondreay.pdf" target={'_blank'}>
                   <button className="btn resume-btn border-round">
                     Download Resume
                   </button>

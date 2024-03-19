@@ -82,7 +82,7 @@ function Projects() {
                     </a>
                     <span> | </span>
                     <a
-                      href="https://budget-tracker-app01.herokuapp.com/"
+                      href="https://budget-tracker-629af.web.app/"
                       target='_blank'
                       rel="noreferrer"
                       >
