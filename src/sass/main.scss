@@ -142,6 +142,45 @@ h2.title {
 //         PROJECT SECTION
 // ===============================
 
+/* ===== Scroll-reveal for Projects (matches existing timings/easing) ===== */
+#projects .project-items {
+  /* Perf: skip offscreen rendering and reserve space to avoid layout jumps */
+  content-visibility: auto;
+  contain-intrinsic-size: 800px;
+
+  .project-card {
+    opacity: 0;
+    transform: translateY(12px); // gentle lift
+    transition:
+            opacity 0.5s ease-out,
+            transform 0.5s ease-out;
+    will-change: opacity, transform;
+  }
+
+  &.reveal .project-card {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* Stagger cards so they cascade in; extend if you have more than 12 */
+  @for $i from 1 through 12 {
+    &.reveal .project-card:nth-child(#{$i}) {
+      transition-delay: #{($i - 1) * 70}ms; // 0ms, 70ms, 140ms, ...
+    }
+  }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  #projects .project-items .project-card,
+  #projects .project-items.reveal .project-card {
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
+
+
 .project-items {
   [class*="col-"] {
     margin-top: 15px;

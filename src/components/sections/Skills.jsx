@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import Marquee from "react-fast-marquee";
 
 
@@ -14,17 +14,21 @@ const Skills = () => {
   // }
 
   // render() {
-  //   const settings = {
-  //     dots: false,
-  //     infinite: true,
-  //     slidesToShow: 3,
-  //     slidesToScroll: 1,
-  //     autoplay: true,
-  //     speed: 5000,
-  //     autoplaySpeed: 0,
-  //     useCSS: true,
-  //     cssEase: "linear"
-  //   };
+    const settings = {
+        dots: false,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 20,
+        autoplaySpeed: 0,
+        useCSS: true,
+        cssEase: "linear",
+        width: 20,
+        color: [
+            226, 235, 236
+        ]
+    };
 
     // const settings2 = {
     //   slidesToShow: 1
@@ -37,9 +41,9 @@ const Skills = () => {
             <h2 className="title">Skills</h2>
             <div className="mainContainer" style={{ zIndex: "1" }}>
               <Marquee 
-                gradientColor={[226, 235, 236]}
-                gradientWidth={20}
-                speed={15}
+                gradientColor={[settings.color[0], settings.color[1], settings.color[2]]}
+                gradientWidth={settings.width}
+                speed={settings.speed}
                 style={{zIndex: "0"}}
               >
                   <img src="images/html_css-logo.png" alt="" style={{ margin: "0 45px", height: "70px" }} />
