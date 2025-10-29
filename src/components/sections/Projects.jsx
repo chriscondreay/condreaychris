@@ -25,12 +25,12 @@ export default function Projects() {
 
     const projects = [
         {
-            title: "Workout Tracker",
-            description: "Exercise tracker utilizing NoSQL",
-            languages: "NoSQL | MongoDB",
+            title: "Brewery Finder",
+            description: "Find breweries using API calls",
+            languages: "JavaScript | OpenBreweryDB",
             image: "images/project-cards/img-1.webp",
-            repo: "https://github.com/chriscondreay/Workout-tracker",
-            website: "https://workout-tracker-d4f93.web.app/",
+            repo: "https://github.com/chriscondreay/BreweryFinder",
+            website: "https://chriscondreay.github.io/BreweryFinder",
         },
         {
             title: "Book Search Engine",
