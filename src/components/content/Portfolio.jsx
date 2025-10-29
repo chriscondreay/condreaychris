@@ -20,7 +20,7 @@ function Portfolio({ portfolio }) {
               )}
               {repo && website && <span> | </span>}
               {website && (
-                  <a href={website} target="_blank" rel="noreferrer" aria-label={`${title} webiste`}>
+                  <a href={website} target="_blank" rel="noreferrer" aria-label={`${title} website`}>
                       Website
                   </a>
               )}
